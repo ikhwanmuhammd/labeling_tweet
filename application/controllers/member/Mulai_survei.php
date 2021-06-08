@@ -41,7 +41,7 @@ class Mulai_survei extends MY_Controller
         $data = array();
         foreach ($list as $field) {
             $row = array();
-            $row[] = $field->id;
+            // $row[] = $field->id;
             $row[] = $field->tweet;
             // $row[] = $field->author;
             // $row[] = $field->dnt_tweet;
